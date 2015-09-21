@@ -26,7 +26,7 @@ var Select2Component = Ember.Component.extend({
   tagName: "input",
   classNames: ["form-control"],
   classNameBindings: ["inputSize"],
-  attributeBindings: ["style", "tabindex"],
+  attributeBindings: ["style", "tabindex", "data-qa"],
   style: Ember.String.htmlSafe("display: hidden;"),
   tabindex: 0,
 
